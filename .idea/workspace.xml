@@ -4,7 +4,6 @@
     <list default="true" id="ab5dcc07-6043-45d9-9096-7e0c5cf7603e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
+            <state relative-caret-position="731">
               <caret line="48" column="21" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
@@ -32,11 +31,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+            <state relative-caret-position="533">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#38#66#0#PHP" expanded="true" />
-                <marker date="1574864290463" expanded="true" signature="520:614" ph="..." />
+                <marker date="1574916167218" expanded="true" signature="520:614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -192,11 +191,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="3344" />
-    <option name="y" value="-247" />
-    <option name="width" value="1453" />
-    <option name="height" value="934" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3200" />
+    <option name="y" value="-257" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -210,29 +209,6 @@
             <path>
               <item name="la" type="b2602c69:ProjectViewProjectNode" />
               <item name="la" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="la" type="b2602c69:ProjectViewProjectNode" />
-              <item name="la" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="la" type="b2602c69:ProjectViewProjectNode" />
-              <item name="la" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="la" type="b2602c69:ProjectViewProjectNode" />
-              <item name="la" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="la" type="b2602c69:ProjectViewProjectNode" />
-              <item name="la" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,12 +273,12 @@
       <workItem from="1573108129136" duration="1535000" />
       <workItem from="1573110345940" duration="2071000" />
       <workItem from="1573461960080" duration="17590000" />
-      <workItem from="1574774310588" duration="5426000" />
+      <workItem from="1574774310588" duration="7216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71636000" />
+    <option name="totallyTimeSpent" value="73426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,10 +290,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3344" y="-247" width="1453" height="934" extended-state="0" />
+    <frame x="3200" y="-257" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24450745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11395101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -564,18 +540,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
+        <state relative-caret-position="731">
           <caret line="48" column="21" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        <state relative-caret-position="533">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#38#66#0#PHP" expanded="true" />
-            <marker date="1574864290463" expanded="true" signature="520:614" ph="..." />
+            <marker date="1574916167218" expanded="true" signature="520:614" ph="..." />
           </folding>
         </state>
       </provider>
