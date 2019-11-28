@@ -35,7 +35,7 @@ class CardController extends Controller
                 return response()->json($data,201);
 //                return response()->json(['message'=>'身份信息已存在是否继续添加', 'code'=> -1, 'status_code'=>422],200);
             }else{
-                DB::table('IDcard')->insert(['ID_card'=>$ID_card,'sex'=>$sex,'name'=>$name,'home'=>$home,'nation'=>$nation, 'music'=>$music]);
+                DB::table('IDcard')->insert(['ID_card'=>$ID_card,'sex'=>$sex,'name'=>$name,'address'=>$home,'nation'=>$nation, 'music'=>$music]);
 //            $sql = DB::table('IDcard')->where('id',352)->get();
                 return response()->json('ok',200);
             }
@@ -52,7 +52,7 @@ class CardController extends Controller
         $home = $request->address;              // 住址
         $music = $request->music;
 
-        DB::table('IDcard')->insert(['ID_card'=>$ID_card,'sex'=>$sex,'name'=>$name,'home'=>$home,'nation'=>$nation, 'music'=>$music]);
+        DB::table('IDcard')->insert(['ID_card'=>$ID_card,'sex'=>$sex,'name'=>$name,'address'=>$home,'nation'=>$nation, 'music'=>$music]);
         return response()->json('ok',200);
 
     }
