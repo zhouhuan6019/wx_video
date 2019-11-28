@@ -46,3 +46,4 @@ Route::get('/vo_url', 'Coding10Controller@video_id');
 Route::get('/search','Coding10Controller@search');
 
 Route::post('/card', 'CardController@show');
+Route::post('/twoCard', 'CardController@create');
