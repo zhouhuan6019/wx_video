@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab5dcc07-6043-45d9-9096-7e0c5cf7603e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CardController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="544">
+              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="e#38#66#0#PHP" expanded="true" />
-                <marker date="1574916167218" expanded="true" signature="520:614" ph="..." />
+                <marker date="1574918669008" expanded="true" signature="520:614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,6 +56,7 @@
       <find>auth.php</find>
       <find>video_id</find>
       <find>num</find>
+      <find>crad</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/Http/Controllers/Auth</dir>
@@ -273,12 +273,12 @@
       <workItem from="1573108129136" duration="1535000" />
       <workItem from="1573110345940" duration="2071000" />
       <workItem from="1573461960080" duration="17590000" />
-      <workItem from="1574774310588" duration="7216000" />
+      <workItem from="1574774310588" duration="7748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73426000" />
+    <option name="totallyTimeSpent" value="73958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,11 +547,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="544">
+          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="e#38#66#0#PHP" expanded="true" />
-            <marker date="1574916167218" expanded="true" signature="520:614" ph="..." />
+            <marker date="1574918669008" expanded="true" signature="520:614" ph="..." />
           </folding>
         </state>
       </provider>
