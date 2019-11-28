@@ -22,6 +22,7 @@ class CardController extends Controller
         if(!empty($name) && !empty($ID_crad)){
             $sql = DB::table('IDcard')->where('ID_crad', $ID_crad)->first();
             if ($sql){
+//                echo $sql->created_at;
                     $data = [
                         'data' => [
                             'crad' => $sql->ID_crad,
