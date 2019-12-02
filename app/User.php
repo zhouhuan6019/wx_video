@@ -11,13 +11,16 @@ class User extends Authenticatable
 {
     use Notifiable, HasApiTokens;
 
+    protected $table = 'users';
+    protected $primaryKey = "id";          //定义用户表主键
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','api_token'
     ];
 
     /**

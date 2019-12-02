@@ -47,3 +47,10 @@ Route::get('/search','Coding10Controller@search');
 
 Route::post('/card', 'CardController@show');
 Route::post('/twoCard', 'CardController@create');
+
+
+//Auth::routes();
+
+//Auth::routes(['register' => false]);
+//
+//Route::get('/home', 'HomeController@index')->name('home');
