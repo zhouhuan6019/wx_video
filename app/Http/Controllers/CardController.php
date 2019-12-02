@@ -20,23 +20,15 @@ class CardController extends Controller
 //        echo $home;
 //        echo $music;
         if(!empty($name) && !empty($ID_card)){
-            $sql = DB::table('IDcard')->where('ID_card', $ID_card)->first();
-            if ($sql){
-//                echo $sql->created_at;
-                    $data = [
-                        'data' => [
-                            'card' => $sql->ID_card,
-                            'name' => $sql->name,
-                            'music' => $sql->music,
-                            'createtime' => $sql->created_at,
-                        ],
-                        'message' => '身份信息已存在'
-                    ];
-                return response()->json($data,201);
-//                return response()->json(['message'=>'身份信息已存在是否继续添加', 'code'=> -1, 'status_code'=>422],200);
+//            $sql = DB::table('IDcard')->where('ID_card', $ID_card)->where('music', $music)->first();
+            $sql = DB::table('IDcard')->where('ID_card', $ID_card)->where('music',$music)->orderBy('id','desc')->get();
+            $total = $sql->count();  //统计数量
+            if ($total>0){
+
+                return response()->json(['data'=>$sql[0],'message'=>'身份已存在','total'=>$total],201);
+
             }else{
                 DB::table('IDcard')->insert(['ID_card'=>$ID_card,'sex'=>$sex,'name'=>$name,'address'=>$home,'nation'=>$nation, 'music'=>$music]);
-//            $sql = DB::table('IDcard')->where('id',352)->get();
                 return response()->json('ok',200);
             }
 
